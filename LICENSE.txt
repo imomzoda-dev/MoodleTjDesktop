@@ -1,0 +1,82 @@
+MOODLE.TJ DESKTOP - END USER LICENSE AGREEMENT (EULA)
+
+Copyright (c) 2026 Imomzoda Mehriddin. All rights reserved.
+
+Please read this agreement carefully. By installing, copying or using
+Moodle.tj Desktop (the "Software") you agree to be bound by this agreement.
+If you do not agree, do not install or use the Software.
+
+1. LICENSE GRANT
+   The author grants you a free, non-exclusive, non-transferable,
+   revocable license to install and use the Software on devices you own
+   or control, for personal and commercial purposes, in accordance with
+   this agreement.
+
+2. OWNERSHIP
+   The Software, its source code, design, name "Moodle.tj Desktop", logo
+   and documentation are the property of the author and are protected by
+   copyright and other intellectual property laws. This agreement does not
+   transfer any ownership rights to you.
+
+3. RESTRICTIONS
+   You may not, and may not allow others to:
+   a) sell, rent, lease, sublicense or otherwise commercially distribute the
+      Software or any part of it;
+   b) modify, translate, decompile, disassemble or reverse engineer the
+      Software, except to the extent that applicable law expressly allows it;
+   c) create derivative works based on the Software;
+   d) remove or alter any copyright notices, trademarks or this agreement;
+   e) distribute the Software other than by sharing a link to the official
+      releases page: https://github.com/imomzoda-dev/MoodleTjDesktop/releases
+   f) use the Software for any unlawful purpose or to violate the terms of
+      any third-party service.
+
+4. THIRD-PARTY SERVICES AND CONTENT
+   The Software is a client of the Moodle.tj learning platform
+   (https://moodle.tj). Your account, courses, grades and other content are
+   governed by the terms and privacy policy of Moodle.tj. Lesson videos may
+   be played from third-party services (for example YouTube), and AI tutor
+   answers may be produced by third-party models (for example Google
+   Gemini), under their own terms.
+
+5. THIRD-PARTY COMPONENTS
+   The Software includes open-source components (for example Electron,
+   Chromium, Node.js, React and others) that are licensed under their own
+   licenses. Those licenses are included with the Software and apply to the
+   respective components.
+
+6. PRIVACY
+   The Software has no telemetry. Your password is never stored; the
+   sign-in token is encrypted by the operating system and kept on your
+   device together with settings and data saved for offline use. Data is
+   sent only to moodle.tj (and, for Gemini models of the AI tutor, to Google)
+   and, when automatic update checks are enabled, version information is
+   requested from GitHub.
+
+7. UPDATES
+   The author may provide updates. Updates are subject to this agreement
+   unless they come with a different agreement.
+
+8. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. AI-GENERATED OUTPUT
+   MAY BE INACCURATE; YOU ARE RESPONSIBLE FOR CHECKING IT AND FOR ANY ACTIONS
+   YOU APPROVE.
+
+9. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+   AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING LOSS
+   OF DATA, PROFITS OR BUSINESS INTERRUPTION, ARISING FROM OR IN CONNECTION
+   WITH THE SOFTWARE OR ITS USE.
+
+10. TERMINATION
+   This license ends automatically if you breach this agreement. On
+   termination you must stop using the Software and delete all copies.
+
+11. GENERAL
+   If any provision of this agreement is held unenforceable, the remaining
+   provisions stay in effect. This agreement is the entire agreement between
+   you and the author regarding the Software.
+
+Contact: https://github.com/imomzoda-dev
