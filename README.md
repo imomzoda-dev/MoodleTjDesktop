@@ -23,21 +23,23 @@
 ## Features
 
 **Learning**
-- Home with a personal greeting, *Continue learning*, upcoming deadlines, popular and new courses.
-- Course catalog with search and filters (subject, level, language, price), enrolment and enrolment requests with a document.
+- Home with a personal greeting, streak and progress, *Continue learning*, today's plan, upcoming deadlines and popular courses.
+- *All courses* with a large search, a filter panel (subject, level, language, price) and sorting; enrolment and enrolment requests with a document.
 - Lessons: video that resumes where you stopped, highlighted code, PDF materials in a built-in viewer, discussion with replies and likes.
 - **AI tutor** in a side panel: live streamed answers, Markdown and highlighted code, model choice, history.
 - Quizzes with a timer, single/multiple/text questions, protection against leaving by accident, a detailed review.
 - Assignments with drag-and-drop upload, grade and teacher feedback.
 - Coding tasks in the Monaco editor: *Run* with input, *Submit* with verdicts (AC/WA/CE/RE/TLE) and per-test results; an online compiler with your own files.
 
-**Library** — showcase, collections, search, a PDF/EPUB reader that remembers your page, notes and quotes, *My shelf*, purchase requests for paid books (the site's rules — watermark and daily limit — always apply).
+**Workspace** — a code workspace on your computer, the same as in Sakina AI Desktop: a project folder with the file explorer, code search and `Ctrl+P`, the Monaco editor with tabs, a real terminal (PowerShell, CMD, Git Bash), Git (changes, commits, branches, pull/push) and the project's tasks in one click.
+
+**Library** — showcase, collections, authors, search, a PDF/EPUB reader that remembers your page, notes and quotes, *My shelf*, purchase requests for paid books (the site's rules — watermark and daily limit — always apply).
 
 **Community** — news with likes and comments, course forums, the community chat with pictures, replies and read marks, a notification centre with Windows notifications and a taskbar badge.
 
 **Motivation** — achievements, streaks and an activity calendar, the leaderboard, certificates (claim, view, save, verification link) and certificate verification.
 
-**Teachers** — courses (create, edit, translations, cover), drag-and-drop lesson order, materials, quiz builder with bulk import, assignments, coding tasks with tests and a reference-solution check, an AI assistant for lesson authors, grading, student progress and course analytics.
+**Teachers** — courses (create, edit, translations, cover), drag-and-drop lesson order, a visual lesson editor as on the site (headings, lists, colours, code, pictures, video), materials, quiz builder with bulk import, assignments, coding tasks with tests and a reference-solution check, an AI assistant for lesson authors, grading, a student's quiz answers straight from the notification, student progress and course analytics.
 
 **Administrators** — premium and enrolment requests, messages, announcements, users, analytics (at-risk students, campaigns) and the full site admin in a secure, auto-signed-in window.
 
@@ -50,6 +52,10 @@
 <p align="center">
   <img src="docs/screenshots/18-lesson-tutor-light.png" width="49%" alt="Lesson with the AI tutor" />
   <img src="docs/screenshots/flow-coding-check.png" width="49%" alt="Coding task" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/flow-workspace.png" width="49%" alt="Workspace" />
+  <img src="docs/screenshots/flow-lesson-editor.png" width="49%" alt="Visual lesson editor" />
 </p>
 <p align="center">
   <img src="docs/screenshots/10-library-light.png" width="49%" alt="Library" />
