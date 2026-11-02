@@ -24,6 +24,15 @@
   <a href="README.md">English</a> &nbsp;·&nbsp; <a href="CHANGELOG.md">Что нового</a>
 </p>
 
+> [!IMPORTANT]
+> **macOS: перед первым запуском выполните одну команду.** Перетащив программу в «Программы», откройте **Терминал** и выполните:
+>
+> ```bash
+> xattr -dr com.apple.quarantine "/Applications/Moodle.tj Desktop.app"
+> ```
+>
+> Без неё macOS не откроет программу («не удаётся открыть» или «повреждена»), потому что она не подписана сертификатом Apple. Достаточно одного раза на установку — [подробнее](#macos-apple-silicon-m1m5).
+
 <p align="center">
   <img src="docs/screenshots/06-home-light.png" width="49%" alt="Главная, светлая тема" />
   <img src="docs/screenshots/07-home-dark.png" width="49%" alt="Главная, тёмная тема" />
@@ -51,6 +60,7 @@
 
 ## Что нового в 1.2
 
+- **Новый вид урока**: текст в карточке с цветными заголовками и списками, код в тёмных карточках с номерами строк и «Копировать», справа «В этом уроке» и «Содержание курса», настройка размера текста урока.
 - **Кабинет преподавателя**: уроки на всех языках курса, «Новый урок», «Сделать копию», порядок перетаскиванием, язык урока, результаты теста каждого студента, аналитика курса с кнопкой «Напомнить».
 - **Аналитика сайта в программе** для администратора: обзор с динамикой, зона риска, кампании с отправкой и исключениями, журнал доставок, карточка студента, выгрузка CSV.
 - **Версия для macOS** с обновлением внутри программы; Windows и macOS обновляются независимо, каждая по своим сборкам.
@@ -64,7 +74,7 @@
 **Обучение**
 - Главная: приветствие, серия и прогресс, «Продолжить обучение», план на сегодня, ближайшие сроки, популярные курсы.
 - «Все курсы» с большим поиском, панелью фильтров (направление, уровень, язык, цена) и сортировкой; запись на курс и заявка с документом.
-- Уроки: видео продолжается с места остановки, код с подсветкой, PDF во встроенном просмотре, обсуждение с ответами и лайками.
+- Уроки в карточке, как на сайте: разделы и содержание курса справа, карточки кода с номерами строк и «Копировать», настраиваемый размер текста; видео продолжается с места остановки, PDF во встроенном просмотре, обсуждение с ответами и лайками.
 - **ИИ-репетитор** в боковой панели: ответ печатается вживую, Markdown и код, выбор модели, история.
 - Тесты с таймером, вопросы с одним/несколькими/текстовым ответом, защита от случайного выхода, подробный разбор.
 - Задания с перетаскиванием файла, оценкой и отзывом преподавателя.
@@ -95,6 +105,10 @@
 
 **Обучение**
 
+<p align="center">
+  <img src="docs/screenshots/27-lesson-light.png" width="49%" alt="Урок с карточками кода и содержанием, светлая тема" />
+  <img src="docs/screenshots/28-lesson-dark.png" width="49%" alt="Урок, тёмная тема" />
+</p>
 <p align="center">
   <img src="docs/screenshots/18-lesson-tutor-light.png" width="49%" alt="Урок с ИИ-репетитором" />
   <img src="docs/screenshots/flow-coding-check.png" width="49%" alt="Задача по программированию" />
@@ -143,7 +157,19 @@
 ### macOS (Apple Silicon: M1–M5)
 
 1. Скачайте `Moodle.tj-Desktop-<версия>-arm64.dmg` из [Releases](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/latest), откройте его и перетащите **Moodle.tj Desktop** в **Программы**.
-2. Программа не подписана сертификатом Apple, поэтому первый запуск macOS один раз заблокирует: откройте программу, затем **Системные настройки → Конфиденциальность и безопасность → «Всё равно открыть»** (или правый клик по программе → **Открыть**).
+2. **Перед первым запуском** откройте **Терминал** (*Spotlight* `⌘ Пробел` → наберите «Терминал» → `Return`, или «Программы → Утилиты → Терминал») и выполните:
+
+   ```bash
+   xattr -dr com.apple.quarantine "/Applications/Moodle.tj Desktop.app"
+   ```
+
+   Команда ничего не спрашивает и ничего не выводит — значит, всё получилось. Она снимает отметку «загружено из интернета» (карантин), которую macOS ставит на программы без сертификата Apple; с этой отметкой macOS пишет, что программу «не удаётся открыть» или что она «повреждена».
+3. Откройте **Moodle.tj Desktop** из «Программ» или Launchpad.
+
+> [!NOTE]
+> - Команда нужна **один раз на установку** из DMG (и снова, если вы ставите новый DMG вручную). Обновления внутри программы ничего не требуют: программа снимает отметку сама.
+> - Если программа лежит в другой папке, укажите её путь вместо `/Applications/…`.
+> - Без Терминала: попробуйте открыть программу один раз, затем **Системные настройки → Конфиденциальность и безопасность → «Всё равно открыть»**.
 
 **Требования:** macOS 12 и новее на Apple Silicon, аккаунт Moodle.tj.
 
@@ -165,12 +191,10 @@
 
 | Версия | Дата | Системы | Загрузки |
 |---|---|---|---|
+| [1.2.3](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.3) | 02.11.2026 | Windows, macOS | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.3/total) |
 | [1.2.2](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.2) | 02.11.2026 | Windows, macOS | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.2/total) |
-| [1.2.1](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.1) | 02.11.2026 | Windows, macOS | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.1/total) |
-| [1.2.0](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.0) | 02.11.2026 | Windows, macOS | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.0/total) |
-| [1.1.1](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.1.1) | 01.11.2026 | Windows | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.1.1/total) |
-| [1.1.0](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.1.0) | 31.10.2026 | Windows | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.1.0/total) |
-| [1.0.0](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.0.0) | 30.10.2026 | Windows | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.0.0/total) |
+
+Более ранние версии — в [CHANGELOG](CHANGELOG.md).
 
 ## Лицензия
 

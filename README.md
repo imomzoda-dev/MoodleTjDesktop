@@ -24,6 +24,15 @@
   <a href="README.ru.md">Русский</a> &nbsp;·&nbsp; <a href="CHANGELOG.md">What's new</a>
 </p>
 
+> [!IMPORTANT]
+> **macOS: run one command before the first start.** After dragging the app into *Applications*, open **Terminal** and run:
+>
+> ```bash
+> xattr -dr com.apple.quarantine "/Applications/Moodle.tj Desktop.app"
+> ```
+>
+> Without it macOS refuses to open the app (*“cannot be opened”* or *“is damaged”*), because it is not signed with an Apple Developer ID. Once per installation is enough — [details](#macos-apple-silicon-m1m5).
+
 <p align="center">
   <img src="docs/screenshots/06-home-light.png" width="49%" alt="Home, light theme" />
   <img src="docs/screenshots/07-home-dark.png" width="49%" alt="Home, dark theme" />
@@ -51,6 +60,7 @@ The same app, the same account and the same features on Windows and on a Mac —
 
 ## What's new in 1.2
 
+- **A new lesson page**: the text in a card with coloured titles and lists, code in dark code cards with line numbers and *Copy*, *In this lesson* and *Course contents* on the right, and a lesson text size setting.
 - **Teacher cabinet**: lessons in every course language, *New lesson*, *Duplicate*, drag-and-drop order, the lesson language, quiz results of every student, course analytics with *Remind*.
 - **Site analytics in the app** for administrators: overview with trends, students at risk, campaigns with sending and exclusions, the delivery log, student cards, CSV export.
 - **macOS version** with in-app updates; Windows and macOS update independently, each from its own builds.
@@ -64,7 +74,7 @@ Full list — [CHANGELOG](CHANGELOG.md).
 **Learning**
 - Home with a personal greeting, streak and progress, *Continue learning*, today's plan, upcoming deadlines and popular courses.
 - *All courses* with a large search, a filter panel (subject, level, language, price) and sorting; enrolment and enrolment requests with a document.
-- Lessons: video that resumes where you stopped, highlighted code, PDF materials in a built-in viewer, discussion with replies and likes.
+- Lessons in a card, as on the site: titles and contents on the right, the course outline, code cards with line numbers and *Copy*, an adjustable text size; video that resumes where you stopped, PDF materials in a built-in viewer, discussion with replies and likes.
 - **AI tutor** in a side panel: live streamed answers, Markdown and highlighted code, model choice, history.
 - Quizzes with a timer, single/multiple/text questions, protection against leaving by accident, a detailed review.
 - Assignments with drag-and-drop upload, grade and teacher feedback.
@@ -95,6 +105,10 @@ Full list — [CHANGELOG](CHANGELOG.md).
 
 **Learning**
 
+<p align="center">
+  <img src="docs/screenshots/27-lesson-light.png" width="49%" alt="Lesson with code cards and contents, light" />
+  <img src="docs/screenshots/28-lesson-dark.png" width="49%" alt="Lesson, dark theme" />
+</p>
 <p align="center">
   <img src="docs/screenshots/18-lesson-tutor-light.png" width="49%" alt="Lesson with the AI tutor" />
   <img src="docs/screenshots/flow-coding-check.png" width="49%" alt="Coding task" />
@@ -143,7 +157,19 @@ Full list — [CHANGELOG](CHANGELOG.md).
 ### macOS (Apple Silicon: M1–M5)
 
 1. Download `Moodle.tj-Desktop-<version>-arm64.dmg` from [Releases](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/latest), open it and drag **Moodle.tj Desktop** into **Applications**.
-2. The app is not signed with an Apple Developer ID, so the first start is blocked once: open it, then go to **System Settings → Privacy & Security** and click **Open Anyway** (or right-click the app → **Open**).
+2. **Before the first start**, open **Terminal** (*Spotlight* `⌘ Space` → type *Terminal* → `Return`, or *Applications → Utilities → Terminal*) and run:
+
+   ```bash
+   xattr -dr com.apple.quarantine "/Applications/Moodle.tj Desktop.app"
+   ```
+
+   The command asks for nothing and prints nothing — that means it worked. It removes the *downloaded from the internet* (quarantine) mark that macOS puts on every app without an Apple Developer ID; with that mark macOS says the app *“cannot be opened”* or *“is damaged and can't be opened”*.
+3. Open **Moodle.tj Desktop** from *Applications* or *Launchpad*.
+
+> [!NOTE]
+> - The command is needed **once per installation** from the DMG (and again if you install a new DMG by hand). Updates made inside the app need nothing: the app removes the mark itself.
+> - If the app is in another folder, use its path instead of `/Applications/…`.
+> - Without Terminal: try to open the app once, then go to **System Settings → Privacy & Security** and click **Open Anyway**.
 
 **Requirements:** macOS 12 or later on Apple Silicon, a Moodle.tj account.
 
@@ -165,12 +191,10 @@ The app checks GitHub Releases at start and every 4 hours (automatic checks can 
 
 | Version | Date | Systems | Downloads |
 |---|---|---|---|
+| [1.2.3](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.3) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.3/total) |
 | [1.2.2](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.2) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.2/total) |
-| [1.2.1](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.1) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.1/total) |
-| [1.2.0](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.0) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.0/total) |
-| [1.1.1](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.1.1) | 01.11.2026 | Windows | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.1.1/total) |
-| [1.1.0](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.1.0) | 31.10.2026 | Windows | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.1.0/total) |
-| [1.0.0](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.0.0) | 30.10.2026 | Windows | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.0.0/total) |
+
+Earlier versions — see the [CHANGELOG](CHANGELOG.md).
 
 ## License
 
