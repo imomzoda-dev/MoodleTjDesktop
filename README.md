@@ -191,8 +191,8 @@ The app checks GitHub Releases at start and every 4 hours (automatic checks can 
 
 | Version | Date | Systems | Downloads |
 |---|---|---|---|
+| [1.2.4](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.4) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.4/total) |
 | [1.2.3](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.3) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.3/total) |
-| [1.2.2](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.2) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.2/total) |
 
 Earlier versions — see the [CHANGELOG](CHANGELOG.md).
 
