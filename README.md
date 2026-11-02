@@ -83,7 +83,7 @@ Full list — [CHANGELOG](CHANGELOG.md).
 
 **Workspace** — a code workspace on your computer: a project folder with the file explorer, code search and `Ctrl+P` / `⌘P`, the Monaco editor with tabs, a real terminal, Git (changes, commits, branches, pull/push) and the project's tasks in one click.
 
-**Library** — showcase, collections, authors, search, a PDF/EPUB reader that remembers your page, notes and quotes, *My shelf* with purchases and subscriptions, search hints, *Follow* a category or an author, your own reviews, *Suggest a book*, purchase requests for paid books (the site's rules — watermark and daily limit — always apply).
+**Library** — showcase, collections, authors, search, a PDF/EPUB reader that remembers your page, notes and quotes, *My shelf* with purchases and subscriptions, search hints, automatic shelves (*New*, *Readers like these*, *Read right away*), *Follow* a category or an author, your own reviews, *Suggest a book*, purchase requests for paid books (the site's rules — watermark and daily limit — always apply).
 
 **Community** — news with a top story, *Top news*, *Popular* and tags, likes and comments; course forums; the community chat with pictures, replies and read marks; a notification centre with system notifications and a badge.
 
@@ -91,7 +91,7 @@ Full list — [CHANGELOG](CHANGELOG.md).
 
 **Teachers** — courses (create, edit, translations, cover, Markdown preview); lessons in every course language with *New lesson*, *Duplicate* (with the quiz and materials), *Open as a student* and drag-and-drop order; a visual lesson editor as on the site; materials; a quiz builder with bulk import and **quiz results of every student**; assignments and grading; coding tasks with tests and a reference-solution check and **students' solutions**; an AI assistant for lesson authors as a chat with saved conversations; **their own books in the library** (checked by an administrator); **course analytics** — funnel, churn risk, the lesson where students stop, daily activity, every student with *Remind*.
 
-**Administrators** — premium and enrolment requests, messages, announcements, users; **news written in the app**; checking teachers' books and book purchase requests; the site's look from the app's settings; **analytics in the app** — overview with trends, students at risk, campaigns (enable, test, send to one, the selected or everyone, exclude), the delivery log, student cards, CSV export; and the full site admin in a secure, auto-signed-in window.
+**Administrators** — premium and enrolment requests, messages, announcements, users; **news written in the app**; checking teachers' books, categories, collections, bulk upload and book purchase requests; notifications to one person; the site's look from the app's settings; **analytics in the app** — overview with trends, students at risk, campaigns (enable, test, send to one, the selected or everyone, exclude), the delivery log, student cards, CSV export; and the full site admin in a secure, auto-signed-in window.
 
 **Desktop quality** — three interface languages (Tajik by default, Russian, English), light/dark themes, `Ctrl+K` / `⌘K` command palette, keyboard shortcuts, offline mode with a queue of actions sent when the connection returns, `moodletj://` links, a tray icon, start at login, automatic updates.
 
@@ -192,8 +192,8 @@ The app checks GitHub Releases at start and every 4 hours (automatic checks can 
 
 | Version | Date | Systems | Downloads |
 |---|---|---|---|
+| [1.2.6](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.6) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.6/total) |
 | [1.2.5](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.5) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.5/total) |
-| [1.2.4](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.4) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.4/total) |
 
 Earlier versions — see the [CHANGELOG](CHANGELOG.md).
 
