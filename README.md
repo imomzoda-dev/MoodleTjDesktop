@@ -5,12 +5,12 @@
 <h1 align="center">Moodle.tj Desktop</h1>
 
 <p align="center">
-  The official Windows app of the <a href="https://moodle.tj">Moodle.tj</a> learning platform —
+  The official Windows and macOS app of the <a href="https://moodle.tj">Moodle.tj</a> learning platform —
   courses, lessons, quizzes, coding tasks, an AI tutor and the digital library, fast and even offline.
 </p>
 
 <p align="center">
-  <a href="https://github.com/imomzoda-dev/MoodleTjDesktop/releases/latest"><b>⬇ Download for Windows</b></a>
+  <a href="https://github.com/imomzoda-dev/MoodleTjDesktop/releases/latest"><b>⬇ Download for Windows and macOS</b></a>
   &nbsp;·&nbsp; <a href="README.ru.md">Русский</a>
   &nbsp;·&nbsp; <a href="CHANGELOG.md">What's new</a>
 </p>
@@ -69,6 +69,14 @@
 3. The installer is **not code-signed**: Windows SmartScreen may show *“Windows protected your PC”* — click **More info → Run anyway**.
 
 **Requirements:** Windows 10/11 x64, 4 GB RAM, about 400 MB of disk space, a Moodle.tj account.
+
+### macOS (Apple Silicon: M1–M5)
+
+1. Download `Moodle.tj-Desktop-<version>-arm64.dmg` from [Releases](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/latest), open it and drag **Moodle.tj Desktop** into **Applications**.
+2. The app is not signed with an Apple Developer ID, so the first start is blocked once: open it, then go to **System Settings → Privacy & Security** and click **Open Anyway** (or right-click the app → **Open**).
+3. When a new version comes out, the app shows it and *Update* downloads the new DMG.
+
+**Requirements:** macOS 12 or later on Apple Silicon.
 
 ## Privacy and security
 
