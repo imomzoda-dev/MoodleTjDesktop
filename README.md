@@ -60,6 +60,7 @@ The same app, the same account and the same features on Windows and on a Mac —
 
 ## What's new in 1.2
 
+- **1.2.8:** lesson pictures linked from other sites are shown (and kept for offline), with the sizes set in the site editor.
 - **1.2.7:** the app takes the colours of the theme you chose for the site; **student activity** for teachers with an Excel gradebook and a card per student; a new **reviews** page; **Liquid Glass** and **Glass Blur** window effects on macOS.
 - **A new lesson page**: the text in a card with coloured titles and lists, code in dark code cards with line numbers and *Copy*, *In this lesson* and *Course contents* on the right, and a lesson text size setting.
 - **Teacher cabinet**: lessons in every course language, *New lesson*, *Duplicate*, drag-and-drop order, the lesson language, quiz results of every student, course analytics with *Remind*.
@@ -193,8 +194,8 @@ The app checks GitHub Releases at start and every 4 hours (automatic checks can 
 
 | Version | Date | Systems | Downloads |
 |---|---|---|---|
+| [1.2.8](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.8) | 03.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.8/total) |
 | [1.2.7](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.7) | 03.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.7/total) |
-| [1.2.6](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.6) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.6/total) |
 
 Earlier versions — see the [CHANGELOG](CHANGELOG.md).
 
