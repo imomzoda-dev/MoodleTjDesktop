@@ -60,6 +60,7 @@
 
 ## Что нового в 1.2
 
+- **1.2.9:** поиск по программе сразу, по сайту — по кнопке (Ctrl+K), непрочитанные уведомления всегда видны, логотип в цвете темы.
 - **1.2.8:** картинки уроков с других сайтов видны (и сохраняются для работы без сети), с размерами из редактора сайта.
 - **1.2.7:** программа в цветах темы, выбранной для сайта; **активность студентов** для преподавателя с ведомостью Excel и карточкой каждого студента; новая страница **отзывов**; эффекты окна **Liquid Glass** и **Glass Blur** на macOS.
 - **Новый вид урока**: текст в карточке с цветными заголовками и списками, код в тёмных карточках с номерами строк и «Копировать», справа «В этом уроке» и «Содержание курса», настройка размера текста урока.
@@ -194,8 +195,8 @@
 
 | Версия | Дата | Системы | Загрузки |
 |---|---|---|---|
+| [1.2.9](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.9) | 03.11.2026 | Windows, macOS | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.9/total) |
 | [1.2.8](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.8) | 03.11.2026 | Windows, macOS | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.8/total) |
-| [1.2.7](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.7) | 03.11.2026 | Windows, macOS | ![загрузки](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.7/total) |
 
 Более ранние версии — в [CHANGELOG](CHANGELOG.md).
 
