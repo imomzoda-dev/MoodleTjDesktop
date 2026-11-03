@@ -55,11 +55,12 @@ The same app, the same account and the same features on Windows and on a Mac —
 | Updates | inside the app, SHA-512 checked, differential download | inside the app, SHA-512 and signature checked, the app replaces itself |
 | Updates follow | the newest **Windows** build | the newest **Mac** build |
 | Sign-in token kept in | Windows DPAPI | macOS Keychain |
-| Look | Mica / Acrylic window, native caption buttons | translucent window, traffic lights, ⌘ shortcuts |
+| Look | Mica / Acrylic window, native caption buttons | Vibrancy, **Liquid Glass** or **Glass Blur** window, traffic lights, ⌘ shortcuts |
 | Workspace terminal | PowerShell, CMD, Git Bash | zsh (your login shell), PowerShell if installed |
 
 ## What's new in 1.2
 
+- **1.2.7:** the app takes the colours of the theme you chose for the site; **student activity** for teachers with an Excel gradebook and a card per student; a new **reviews** page; **Liquid Glass** and **Glass Blur** window effects on macOS.
 - **A new lesson page**: the text in a card with coloured titles and lists, code in dark code cards with line numbers and *Copy*, *In this lesson* and *Course contents* on the right, and a lesson text size setting.
 - **Teacher cabinet**: lessons in every course language, *New lesson*, *Duplicate*, drag-and-drop order, the lesson language, quiz results of every student, course analytics with *Remind*.
 - **Site analytics in the app** for administrators: overview with trends, students at risk, campaigns with sending and exclusions, the delivery log, student cards, CSV export.
@@ -85,15 +86,15 @@ Full list — [CHANGELOG](CHANGELOG.md).
 
 **Library** — showcase, collections, authors, search, a PDF/EPUB reader that remembers your page, notes and quotes, *My shelf* with purchases and subscriptions, search hints, automatic shelves (*New*, *Readers like these*, *Read right away*), *Follow* a category or an author, your own reviews, *Suggest a book*, purchase requests for paid books (the site's rules — watermark and daily limit — always apply).
 
-**Community** — news with a top story, *Top news*, *Popular* and tags, likes and comments; course forums; the community chat with pictures, replies and read marks; a notification centre with system notifications and a badge.
+**Community** — reviews of the platform with the rating spread, filters and your own review to edit or delete; news with a top story, *Top news*, *Popular* and tags, likes and comments; course forums; the community chat with pictures, replies and read marks; a notification centre with system notifications and a badge.
 
 **Motivation** — achievements, streaks and an activity calendar, the leaderboard, certificates (claim, view, save, verification link) and certificate verification.
 
-**Teachers** — courses (create, edit, translations, cover, Markdown preview); lessons in every course language with *New lesson*, *Duplicate* (with the quiz and materials), *Open as a student* and drag-and-drop order; a visual lesson editor as on the site; materials; a quiz builder with bulk import and **quiz results of every student**; assignments and grading; coding tasks with tests and a reference-solution check and **students' solutions**; an AI assistant for lesson authors as a chat with saved conversations; **their own books in the library** (checked by an administrator); **course analytics** — funnel, churn risk, the lesson where students stop, daily activity, every student with *Remind*.
+**Teachers** — courses (create, edit, translations, cover, Markdown preview); lessons in every course language with *New lesson*, *Duplicate* (with the quiz and materials), *Open as a student* and drag-and-drop order; a visual lesson editor as on the site; materials; a quiz builder with bulk import and **quiz results of every student**; assignments and grading; coding tasks with tests and a reference-solution check and **students' solutions**; an AI assistant for lesson authors as a chat with saved conversations; **their own books in the library** (checked by an administrator); **student activity** of every course, as on the site — who is active, at risk or finished, quizzes, assignments and coding against the course totals, an Excel gradebook, and a card per student with a timeline and an activity map; **course analytics** — funnel, churn risk, the lesson where students stop, daily activity, every student with *Remind*.
 
 **Administrators** — premium and enrolment requests, messages, announcements, users; **news written in the app**; checking teachers' books, categories, collections, bulk upload and book purchase requests; notifications to one person; the site's look from the app's settings; **analytics in the app** — overview with trends, students at risk, campaigns (enable, test, send to one, the selected or everyone, exclude), the delivery log, student cards, CSV export; and the full site admin in a secure, auto-signed-in window.
 
-**Desktop quality** — three interface languages (Tajik by default, Russian, English), light/dark themes, `Ctrl+K` / `⌘K` command palette, keyboard shortcuts, offline mode with a queue of actions sent when the connection returns, `moodletj://` links, a tray icon, start at login, automatic updates.
+**Desktop quality** — three interface languages (Tajik by default, Russian, English), light/dark themes and the colours of your site theme, `Ctrl+K` / `⌘K` command palette, keyboard shortcuts, offline mode with a queue of actions sent when the connection returns, `moodletj://` links, a tray icon, start at login, automatic updates.
 
 ## Screenshots
 
@@ -192,8 +193,8 @@ The app checks GitHub Releases at start and every 4 hours (automatic checks can 
 
 | Version | Date | Systems | Downloads |
 |---|---|---|---|
+| [1.2.7](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.7) | 03.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.7/total) |
 | [1.2.6](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.6) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.6/total) |
-| [1.2.5](https://github.com/imomzoda-dev/MoodleTjDesktop/releases/tag/v1.2.5) | 02.11.2026 | Windows, macOS | ![downloads](https://img.shields.io/github/downloads/imomzoda-dev/MoodleTjDesktop/v1.2.5/total) |
 
 Earlier versions — see the [CHANGELOG](CHANGELOG.md).
 
